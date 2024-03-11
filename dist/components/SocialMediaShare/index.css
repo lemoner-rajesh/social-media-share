@@ -1,0 +1,176 @@
+.socialbx{
+    margin-top: 100px;
+}
+.alj-podcast-share .alj-chat-box .icon img {
+    max-width: inherit;
+    height: 17px;
+    cursor: pointer;
+}
+
+.linkCopiedText {
+    font-size: 10px;
+    position: absolute;
+    bottom: -24px;
+    text-align: center;
+    left: -17px;
+    right: 0;
+    /* color: #498097; */
+    color: #000;
+    /* color: rgb(0, 0, 0); */
+    width: 100px;
+}
+
+.alj-podcast,
+.alj-podcast-share {
+    position: absolute;
+    display: none;
+    bottom: 50px;
+    background: #fff
+}
+
+.alj-podcast-share {
+    max-width: 150px;
+    width: 150px;
+    right: 0
+}
+
+.alj-chat-box {
+    border: 1px solid #8c8c8c;
+    padding: 13px 15px;
+    position: relative
+}
+
+.alj-podcast-share .alj-chat-box:after,
+.alj-podcast-share .alj-chat-box:before {
+    right: 5px
+}
+
+.alj-chat-box:after,
+.alj-chat-box:before {
+    border-bottom: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    bottom: -11px;
+    content: "\0020";
+    display: block;
+    height: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    right: 76px;
+    width: 0;
+    z-index: 2
+}
+
+.alj-chat-box:before {
+    border-top-color: #8c8c8c;
+    bottom: -13px;
+    z-index: 1
+}
+
+.alj-podcast-inner,
+.alj-podcast-wrapper .alj-podcast-inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.alj-chat-box .icon img {
+    max-width: 20px;
+    height: auto;
+    cursor: pointer
+}
+
+.alj-podcast-share .alj-chat-box .icon img {
+    max-width: inherit;
+    height: 17px;
+    cursor: pointer
+}
+
+#toggleButton,
+.socialbx .whatsapp,
+.thumbnail-insights-contents-wrapper .brand-matrix-secondary-mobile,
+.video-thumbnail-contents-wrapper .brand-matrix-secondary-mobile,
+.who-we-are-landing-wrapper .mobility-card-carousel-wrapper .css-1aquho2-MuiTabs-indicator,
+.who-we-are-landing-wrapper .mobility-card-carousel-wrapper .css-ttwr4n,
+.zoomReset {
+    display: none
+}
+
+
+.action-buttons-wrapper a,
+.socialbx .socialslidecont {
+    display: inline-block
+}
+
+
+#linkcopiedStories.on,
+.alj-podcast-share.on,
+.alj-podcast.on,
+.socialbx .socialicon i,
+.socialbx .socialslidecont:hover .socialslide {
+    display: block
+}
+
+.share-options img {
+    cursor: pointer;
+    height: 17px;
+    max-width: inherit
+}
+
+.share-options .printbtn {
+    border-right: 1px solid #dcdcdc;
+    margin-left: 0;
+    padding-right: 10px
+}
+
+.socialbx img {
+    max-width: 100%;
+    max-height: 16px;
+}
+
+.socialbx {
+    float: right;
+    position: relative;
+    padding: 0;
+    margin: 0 25px 0 0;
+    font-size: 0;
+    list-style: none
+}
+
+.socialbx li {
+    float: left;
+    padding-right: 8px;
+    margin-right: 8px
+}
+
+.sociabx-black li,
+.sociabx-white li {
+    border-right: 1px solid
+}
+
+.socialbx li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none
+}
+
+.socialbx .sicons {
+    display: block;
+    width: 20px
+}
+
+.socialbx .socialicon {
+    display: inline-block;
+    color: #00adbc;
+    font-size: 22px
+}
+
+.socialbx .socialicon+.socialicon {
+    margin-top: 10px
+}
+
+.socialbx .socialicon:hover {
+    color: #f88c15
+}

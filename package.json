@@ -1,22 +1,43 @@
 {
-  "name": "social-share",
-  "version": "1.0.0",
-  "private": true,
-  "description": "social-share",
-  "author": "@lemoner-rajesh",
+  "name": "@lemonadvertising/social-media-share",
+  "description": "social media share  gatsby components",
+  "author": "lemonadvertising",
   "keywords": [
-    "gatsby"
+    "react",
+    "gatsby",
+    "components",
+    "ui"
   ],
+  "version": "0.1.0",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonadvertising/social-media-share.git"
+  },
+  
+
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.13.3",
+    "@babel/polyfill": "^7.12.1",
+    "gatsby": "^5.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
   }
 }

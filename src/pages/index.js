@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import SocialMediaShare  from "../lib/components/SocialMediaShare"
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -126,6 +126,13 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+
+
+      <SocialMediaShare 
+        title="title"
+        pageSlug="/about"
+        isDark={true}      
+      />
       <h1 style={headingStyles}>
         Congratulations
         <br />

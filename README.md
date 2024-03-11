@@ -1,49 +1,41 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
 
-## 🚀 Quick start
+# Social Media Share
 
-1.  **Create a Gatsby site.**
+This package is useful for sharing news articles or pages on social media platforms. Additionally, you can copy the current URL and share it manually. Upon clicking on the share icon, the tooltip appears, allowing you to share from there.
+![Logo](https://media.lemonhq.io/wp-content/uploads/2024/02/share.jpg)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Installation
 
-2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+```bash
+  npm install @lemonadvertising/social-media-share
+```
+    
+## Usage/Examples
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```javascript
+import { SocialMediaShare } from '@lemonadvertising/social-media-share'
 
-3.  **Open the code and start customizing!**
+function App() {
 
-    Your site is now running at http://localhost:8000!
+  return <SocialMediaShare
+            title="Page Title"
+            pageSlug="/about"
+            isDark={true}
+        />
+        
+}
+```
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
+## Tech Stack
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+**Client:** React, Gatsby
 
-## 🚀 Quick start (Netlify)
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## Authors
+
+- [@rajeshworkz](https://www.github.com/lemonadvertising)
+
